@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+p{
+    
+    font-size:5rem;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 7rem;
+    background-color:hsl(216, 50%, 16%) ;
+}
+h1{
+    font-size:5rem;
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+    margin-top:3rem;  
+}
+@media screen and (min-width:375px){
+    p{
+        font-size:3rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+    
